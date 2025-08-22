@@ -8,4 +8,4 @@ services:
     plan: free
     envVars:
       - key: REACT_APP_BACKEND_URL
-        value: "https://ngi-chatbot-backend.onrender.com"
+        value: "https://ngi-backend.onrender.com/"
