@@ -1,0 +1,11 @@
+services:
+  - type: static
+    name: ngi-chatbot-frontend
+    branch: main
+    repo: https://github.com/Parthieshwar/NGI-Frontend.git
+    buildCommand: npm install && npm run build
+    region: oregon
+    plan: free
+    envVars:
+      - key: REACT_APP_BACKEND_URL
+        value: "https://ngi-chatbot-backend.onrender.com"

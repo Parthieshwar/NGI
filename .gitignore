@@ -5,3 +5,4 @@ enhance.py
 scraped/
 enhanced/
 enhanced_texts/
+__pycache__/
