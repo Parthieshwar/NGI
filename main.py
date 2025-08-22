@@ -61,3 +61,7 @@ async def stream_chat(question: str, reset: bool = False):
         memory.clear()  # Make sure your memory object has a clear() method
         
     return StreamingResponse(stream_response(question), media_type="text/event-stream")
+
+@app.get("/")
+async def root():
+    return {"message": "NGI Chatbot backend is running"}
