@@ -1,0 +1,11 @@
+langchain
+langchain_community
+langchain_mistralai
+faiss-cpu
+fastapi
+dotenv
+langchain_openai
+asyncio
+uvicorn
+pydantic
+typing
