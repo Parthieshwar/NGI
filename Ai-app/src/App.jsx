@@ -33,9 +33,11 @@ const App = () => {
     // Add an empty AI message immediately so we can update it
     setMessages((prev) => [...prev, { sender: 'ai', text: '' }]);
   
+    const backendURL = import.meta.env.VITE_BACKEND_URL.replace(/\/$/, ""); // remove trailing slash
     const eventSource = new EventSource(
-      `${import.meta.env.VITE_BACKEND_URL}/stream?question=${encodeURIComponent(userPrompt)}`
+      `${backendURL}/stream?question=${encodeURIComponent(userPrompt)}`
     );
+    
     
     
     eventSource.onmessage = (event) => {
