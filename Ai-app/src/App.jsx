@@ -34,9 +34,10 @@ const App = () => {
     setMessages((prev) => [...prev, { sender: 'ai', text: '' }]);
   
     const eventSource = new EventSource(
-      `http://127.0.0.1:8000/stream?question=${encodeURIComponent(userPrompt)}`
+      `${import.meta.env.VITE_BACKEND_URL}/stream?question=${encodeURIComponent(userPrompt)}`
     );
-  
+    
+    
     eventSource.onmessage = (event) => {
       if (event.data === "[DONE]") {
         eventSource.close();
