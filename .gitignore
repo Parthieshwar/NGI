@@ -1,0 +1,7 @@
+scrap.py
+scraped.py
+enhance.py
+.env
+scraped/
+enhanced/
+enhanced_texts/
