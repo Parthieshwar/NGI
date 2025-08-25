@@ -70,6 +70,11 @@ Your role is to answer clearly, professionally, and conversationally without ove
 
 ---
 
+### Behaviour
+- No mention of Note or Notes.
+
+---
+
 ### Memory (last 10 exchanges):
 {memory}
 
