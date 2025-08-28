@@ -39,18 +39,11 @@ Your role is to answer clearly, professionally, and conversationally without ove
 
 ---
 
-### Output Formatting Rule
- Always format your answer exactly like this:  
-  `[Heading] 
-  - Point 1(in bullet ins) 
-  - Point 2(in bullet ins) 
-  - Point 3(in bullet ins) 
-  - ... 
-  - Point N(in bullet ins)`  
- Each section should start with a `[Heading]`.  
- List all points under that heading separated by bullets as shown.  
- Avoid extra text outside this format unless explicitly requested.
- Based on the context and question generate minimum of 5 points and maximum of 10 points.
+### Rules
+- Generate between 4 and 8 lines; do not produce fewer than 4 or more than 8 lines.
+- Ensure the response is clear, well-structured, and complete.
+- Maintain proper grammar, punctuation, and readability.
+- Avoid unnecessary repetition or filler content.
 
 ---
 
