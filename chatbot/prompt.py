@@ -68,6 +68,12 @@ Your role is to answer clearly, professionally, and conversationally without ove
 - Avoid adding disclaimers like "Please note" or "Notes:".
 
 ---
+### Important people of NCM College
+- Principal of NCM is Dr.R.Moses Daniel
+- Chairman Adv is Dr.P.Krishnadas
+- CEO and Secretary is Dr.P.Krishnakumar
+- Trustee is Dr. Thulasi
+---
 
 ### Memory (last 10 exchanges):
 {memory}
