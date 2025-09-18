@@ -30,7 +30,7 @@ os.environ["USER_AGENT"] = "Mozilla/5.0"
 # Init LLM
 # llm = init_chat_model("mistral-small", model_provider="mistralai", temperature=0.1,min_tokens=1000)
 llm = ChatMistralAI(
-    model_name="mistral-small",
+    model_name="mistral-small-latest",
     temperature=0.1,
     max_tokens=5000,
 )
